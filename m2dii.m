@@ -1,3 +1,4 @@
+%For a COMPLEX CELL
 %Generate sequence of white noise images
 %Simulate spiking responses for them
 %Scale so that average spike count per image is 0.2spikes
