@@ -1,3 +1,4 @@
+%For a SIMPLE CELL
 %Steps
 %Generate sequence of white noise images
 %Simulate spiking responses for them (through the model cell we already
@@ -5,23 +6,7 @@
 %Scale so that average spike count per image is 0.2spikes
 %Average over all images with at least 1 count
 %Compare to the RF of the model neuron
-
-%Oh so basically the point is to ask how well a reverse correlated image
-%matches the actual RF. The match contrary to what I thought isn't obvious.
-%Just because I infer backward, "This is the RF given the stimuli the
-%cell's been most responsive to", doesn't mean that it is the RF. 
-%P(this is the RF | spike always accompanied by this stimuli) = ?
-%Does P(some group of stimuli | spike) being high mean that 
-%avg(these stimuli) is the RF? 
-%In other words, does P(some group of stimuli | spike) being high
-%mean P(spike | avg. of these stimuli) is high?
-%If we call the "some group of stimuli" together a kind of "ideal stimulus"
-%then we can ask, "Does P(ideal stimulus | spike) being high mean
-%P(spike | ideal stimulus) is high? Call this "ideal" or "average" A.
-%Call a spike event S.
-%This brings us to the relationship between P(A|S) and P(S|A).
-%An "average" or "ideal" is the cell's RF if and only if P(A|S) and P(S|A)
-%are both high.
+%Aryaman
 
 x0=-5.0;
 y0=-5.0;
